@@ -1,0 +1,16 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+@mixin btn_hover{
+  &_btn:hover {
+    background-image: none;
+    background-color: #1EACC7;
+  }
+}
+
+@import "general";
+@import "media";
